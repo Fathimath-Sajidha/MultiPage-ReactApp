@@ -1,0 +1,11 @@
+.CardImage{
+    height: 9rem;
+}
+.card{
+    border-radius: 24px;
+    
+}
+.card:hover{
+    border-color: rgb(209, 116, 116);
+    box-shadow: 2px 4px 0;
+}

@@ -1,0 +1,15 @@
+.error-container{
+    border-radius: 8px;
+    border: 2px solid beige;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../../Assets/bg3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    height: 80vh;
+}
