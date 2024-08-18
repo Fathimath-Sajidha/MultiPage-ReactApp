@@ -1,0 +1,112 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid beige;
+    background: url(../../Assets/bg4.jpg);
+    outline: 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 20px;
+        border:1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        min-height: 50vh;
+        
+        
+}
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.hero-overlay {
+  background-color: rgba(105, 105, 105, 0.5);
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(1px);
+  border-radius: 30px;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.cta-button {
+  background-color: #a2b5d6;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #212031;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #837d73;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.content-block {
+  width: 30%;
+  text-align: center;
+}
+
+.content-block img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.content-block h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.content-block p {
+  font-size: 1em;
+  color: #666;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+    
+}
+
+.div-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  row-gap: 20 px;
+}

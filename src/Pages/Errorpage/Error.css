@@ -1,8 +1,8 @@
 .error-container{
-    border-radius: 8px;
-    border: 2px solid beige;
+   
     margin: 1px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -12,4 +12,8 @@
 }
 img{
     height: 80vh;
+}
+h1{
+    font-weight: 600;
+    font-family:monospace;
 }

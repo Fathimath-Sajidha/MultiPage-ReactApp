@@ -1,3 +1,24 @@
-.navcontainer{
-    background-color: rgb(160, 126, 64);
-}
+.navbar {
+    padding: 0%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: rgba(216, 217, 231, 0.5);
+    padding: 15px 30px;
+    min-height: 20px;
+
+  }
+  
+  
+  h4{
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  nav{
+    display: flex;
+    gap: 20px;
+    min-height: fit-content;
+  }
+  .navlinks{
+    display:inline-flex
+  }

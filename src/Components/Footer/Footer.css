@@ -1,0 +1,8 @@
+
+.footer{
+    background-color: rgb(220, 227, 233);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    backdrop-filter: blur(10px);
+}

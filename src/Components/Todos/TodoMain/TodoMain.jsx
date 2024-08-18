@@ -1,11 +1,11 @@
-import React from "react";
-import "./TodolistMain.css";
-import { useState } from "react";
-import Todolist from "../TodoListitems/Todolist.jsx";
+import { useState } from 'react';
+import './TodoMain.css'
 import IconButton from "@mui/material/IconButton";
-import AddTaskIcon from "@mui/icons-material/AddTask";
+import AddTaskIcon from '@mui/icons-material/AddTask';
+import Todolist from '../Todolist/Todolist';
 
-function TodoListMain() {
+
+function TodoMain() {
   const [todos, setTodos] = useState([])
   const [newInput, setInput] = useState('')
   const handleInputChange = (event) => {
@@ -34,7 +34,7 @@ function TodoListMain() {
           <IconButton onClick={addNewTodo}  > <AddTaskIcon/></IconButton> 
                    <br/>
           <br/>
-          {todos.map((ele, index) => <Todolist label={ele.label} count={index} key={index} completed={ele.completed} makeDone={makeDone} deleteTodo={deleteTodo} />)}
+          {todos.map((ele, index) => <Todolist label={ele.label} count={index} key={index} completed={ele.completed}   makeDone={makeDone} deleteTodo={deleteTodo} />)}
         
       </div>
      
@@ -45,4 +45,4 @@ function TodoListMain() {
   );
 }
 
-export default TodoListMain;
+export default TodoMain;

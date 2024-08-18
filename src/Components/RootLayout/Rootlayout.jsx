@@ -2,17 +2,21 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from '../Footer/Footer'
+import './Rootlaout.css'
 
 function Rootlayout() {
   return (
-    <div className='Wrapper'>
+    
+    <div className='wrapper'>
         <Navbar/>
-        <main>
+        <main className='main'>
   <Outlet/>
         </main>
+       
         <Footer/>
-
     </div>
+    
+    
   )
 }
 

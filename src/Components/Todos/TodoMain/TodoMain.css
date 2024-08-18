@@ -1,0 +1,40 @@
+.app-container {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../../../Assets/bg5.jpeg) no-repeat;
+}
+.todo-box {
+  padding: 30px;
+  border: 5px;
+  outline: 2px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+ 
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+body {
+ 
+  background-size: cover;
+  background-position: center;
+  
+}
+input {
+  border: 5px;
+  border-radius: 8px;
+  min-width: 31px;
+  min-height: 31x;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}

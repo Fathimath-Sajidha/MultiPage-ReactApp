@@ -4,9 +4,9 @@ import './Footer.css'
 function Footer() {
   return (
     
-    <footer class="footer mt-auto py-3 bg-light">
+    <footer className='footer' bg="light" data-bs-theme="light" expand="lg">
   <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+    <span class="text-muted">........</span>
   </div>
 </footer>
   )
