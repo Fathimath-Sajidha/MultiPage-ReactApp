@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './CountryBox.css';
 import axios from 'axios';
-import Button from 'react-bootstrap/Button';
 import CountryCard from '../CountryCard/CountryCard';
 import { useNavigate } from 'react-router-dom';
 
